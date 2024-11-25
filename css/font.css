@@ -1,31 +1,28 @@
-/* Regular 폰트 */
 @font-face {
-  font-family: "Heebo";
-  src: url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Regular.woff2") format("woff2"), url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: Heebo;
+  font-weight: 300;
   font-style: normal;
+  font-display: swap;
+  src: url("/assets/fonts/Heebo-Bold.woff2") format("woff2"), url("/assets/fonts/Heebo-Light.woff") format("woff");
 }
-
-/* Light 폰트 */
 @font-face {
-  font-family: "Heebo";
-  src: url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Light.woff2") format("woff2"), url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Light.woff") format("woff");
-  font-weight: lighter;
+  font-family: Heebo;
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  src: url("/assets/fonts/Heebo-Regular.woff2") format("woff2"), url("/assets/fonts/Heebo-Regular.woff") format("woff");
 }
-
-/* SemiBold 폰트 */
 @font-face {
-  font-family: "Heebo";
-  src: url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-SemiBold.woff2") format("woff2"), url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-SemiBold.woff") format("woff");
-  font-weight: 600; /* SemiBold */
+  font-family: Heebo;
+  font-weight: 600;
   font-style: normal;
+  font-display: swap;
+  src: url("/assets/fonts/Heebo-SemiBold.woff2") format("woff2"), url("/assets/fonts/Heebo-SemiBold.woff") format("woff");
 }
-
-/* Bold 폰트 */
 @font-face {
-  font-family: "Heebo";
-  src: url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Bold.woff2") format("woff2"), url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Bold.woff") format("woff");
-  font-weight: bold;
+  font-family: Heebo;
+  font-weight: 700;
   font-style: normal;
+  font-display: swap;
+  src: url("/assets/fonts/Heebo-Bold.woff2") format("woff2"), url("/assets/fonts/Heebo-Bold.woff") format("woff");
 }
