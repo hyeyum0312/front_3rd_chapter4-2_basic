@@ -1,7 +1,7 @@
 /* Regular 폰트 */
 @font-face {
   font-family: "Heebo";
-  src: url("https://hyen-bucket-name.s3.amazonaws.com/fonts/Heebo-Regular.woff2") format("woff2"), url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Regular.woff") format("woff");
+  src: url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Regular.woff2") format("woff2"), url("https://hyen-bucket.s3.amazonaws.com/fonts/Heebo-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
