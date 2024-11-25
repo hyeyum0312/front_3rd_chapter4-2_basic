@@ -224,10 +224,7 @@ section.best-sellers .product-slider .product {
 }
 
 section.best-sellers .product-slider .product img {
-  width: 250px;
   max-width: 40%;
-  height: auto;
-  object-fit: contain;
 }
 
 section.best-sellers .product-slider .product .product-picture {
@@ -422,7 +419,7 @@ footer .bottom-nav ul li a:hover {
 
 footer .bottom-nav ul li.list-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.5px;
   line-height: 26px;
   margin-top: 0;
@@ -554,7 +551,7 @@ footer .copyright-text {
 
   section.best-sellers .product-slider .product.new::before {
     font-size: 11px;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0.27px;
     padding: 0px 12px;
   }
@@ -671,7 +668,7 @@ footer .copyright-text {
 
   section.best-sellers .product-slider .product .product-info .price {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0.5px;
   }
 
